@@ -1,0 +1,23 @@
+project: 
+  type: website
+  output-dir: docs
+
+website:
+  title: "Gabriel Alvarez, M.A., M.S., M.P.A."
+  navbar:
+    left:
+      - text: "About Me"
+        file: aboutme.qmd
+      - text: "Projects"
+    right:
+      - icon: github 
+        href: https://github.com/GreenHurcules/Gabriel-Portfolio        
+
+format:
+  html:
+    theme: cosmo
+    highlight: zenburn
+    css: styles.css
+    toc: FALSE
+
+
